@@ -15,8 +15,7 @@ public class CustomFrame extends JFrame {
     public void initializeFrame(ImageIcon image) {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle("JFrame goes brrrrrrrr");
-        this.setSize(1280, 720);
-        this.setResizable(false);
+        this.setSize(500, 535);
 
         if (image != null) {
             this.setIconImage(image.getImage());
